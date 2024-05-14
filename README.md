@@ -78,7 +78,7 @@ CMD ["python", "./calculator/calculator.py"]
 ### To push the Docker Image to Docker Hub
 
 1. **Logging in to Docker Hub**:
-   ```bash
+   ```basha
    docker login
    ```
 2. **Tagging the Docker image**:
@@ -102,7 +102,7 @@ docker.io/392781243/simplecalculator:latest
    ```
 2. **Run the Container**
    ```bash
-   docker run 392781243/simplecalculator:latest
+   docker run -it 392781243/simplecalculator:latest
    ```
 3. **Use the Calculator**
    ```bash
